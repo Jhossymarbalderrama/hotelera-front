@@ -1,0 +1,7 @@
+Dependencias intaladas:
+
+remixicon: npm i remixicon -save 
+    angular.json > "node_modules/remixicon/fonts/remixicon.css",
+
+ng2 DatePicker: npm install ng2-date-picker@18.0.0 --save
+    angular.json > "node_modules/@angular/cdk/overlay-prebuilt.css",
