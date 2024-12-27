@@ -1,13 +1,21 @@
 <div class="navbar-area">
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" [class.active]="classApplied">
 
             <a class="navbar-brand" href="">
                 <img src="assets/images/logo.png" alt="logo" width="120" height="120">
             </a>
 
+            <button class="navbar-toggler" type="button" (click)="toggleClass()">
+                <span class="burger-menu">
+                    <span class="top-bar"></span>
+                    <span class="middle-bar"></span>
+                    <span class="bottom-bar"></span>
+                </span>
+            </button>
+
             <div class="collapse navbar-collapse">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav for-responsive">
                     <li class="nav-item">
                         <a class="nav-link" href="">
                             Inicio
